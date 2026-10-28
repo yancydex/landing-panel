@@ -1,0 +1,10 @@
+{
+  "name": "landing-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seven Claudes visit your landing page as seven different people, decide alone whether to stay or leave, then fix it.",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

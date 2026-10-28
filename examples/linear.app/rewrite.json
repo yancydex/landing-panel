@@ -1,0 +1,56 @@
+{
+  "before": {
+    "headline": "The product development system for teams and agents The product development system for teams and agents",
+    "subhead": "Purpose-built for planning and building products. Designed for the AI era.",
+    "cta": "New Loops →"
+  },
+  "top_fixes": [
+    {
+      "rank": 1,
+      "tag": "cta",
+      "backed_by": ["scroller", "burned-buyer", "designer", "copywriter", "ideal-customer", "slow-phone"],
+      "fix": "Put a real primary button ('Start your workspace', linking to /signup, styled like the light 'Sign up' pill, 44px tall on mobile) directly under the subhead, left-aligned with the headline, with a one-line 'See plans and pricing' link to /pricing beneath it. Demote 'New Loops →' to a small badge above the headline.",
+      "why": "Six of seven found no action in the hero: the only hero link goes to a Loops announcement, 'Sign up' is a small nav pill, and 'Get started' only appears at the very bottom."
+    },
+    {
+      "rank": 2,
+      "tag": "headline",
+      "backed_by": ["scroller", "copywriter", "competitor"],
+      "fix": "Replace the category label with what the demo under it shows: 'Plan and track software, from Slack thread to draft PR'. Then rename the four feature heads as outcomes in the same plain voice (e.g. 'Intake and integrations' -> 'Conversations become routed, prioritized issues').",
+      "why": "The scroller couldn't tell what it does in 3 seconds, the copywriter and competitor both said the words are generic category copy while the Slack-to-PR demo is the real pitch."
+    },
+    {
+      "rank": 3,
+      "tag": "mobile",
+      "backed_by": ["scroller", "designer", "slow-phone"],
+      "fix": "On mobile, cut the empty black band above the headline, drop the h1 to about 32px so it wraps in 3 lines, render the headline and subhead sharp at first paint (no blur/fade-in), and give hero links a 44px tap height so the product screenshot starts on the first screen.",
+      "why": "The phone fold is mostly empty black plus a 4-line headline, the slow phone saw a blurred headline for 10+ seconds, and the only hero tap target is a 93x24 text link."
+    }
+  ],
+  "hero": {
+    "headline": "Plan and track software, from Slack thread to draft PR",
+    "subhead": "Turn conversations into prioritized issues and let AI agents work them alongside your team, up to a pull request ready for review. Used by 40,000+ product teams.",
+    "cta": "Start your workspace",
+    "note": "See plans and pricing before you sign up →"
+  },
+  "section_order": [
+    {"section": "Hero (new headline, subhead, button) + the DRV-8852 product demo", "why": "The demo is what every visitor praised; the copy now names what it shows and the hero finally asks for the click."},
+    {"section": "Logo strip, with 'Linear powers over 40,000 product teams. From ambitious startups to major enterprises.' moved up from the customers block as its caption", "why": "Replaces 'POWERING THE COMPANIES BUILDING THE FUTURE' with the page's strongest checkable-sounding line, which the copywriter found buried near the footer."},
+    {"section": "Intake and integrations", "why": "Starts the loop the headline promises: the Slack #product thread becoming issues is the ideal customer's 'every morning' task."},
+    {"section": "AI and automations", "why": "The agents-as-teammates section is the differentiator the competitor can't copy; it belongs right after intake."},
+    {"section": "Build, review, and ship", "why": "Closes the Slack-thread-to-PR loop with the diff and review view."},
+    {"section": "Planning and monitoring", "why": "Roadmaps and cycle time matter to leads but don't advance the headline's story; also needs the contrast fix the designer flagged."},
+    {"section": "Customers (#customers): Gabriel Peal (OpenAI) and Nik Koblov (Ramp) quotes", "why": "Named proof right before the ask. [NEEDS: one quote with a measurable outcome, e.g. time to ship or tool replaced, with name and company]"},
+    {"section": "[NEEDS: plan and pricing summary: what is free, whether a card is required, paid price per seat, and how long importing from Jira takes]", "why": "Pricing was the top unanswered question for the burned buyer, the competitor and the ideal customer; only the owner can state these terms."},
+    {"section": "Built for the future. Available today. (Get started / Contact sales)", "why": "Keep the final ask, but repeat the hero button text and the pricing line under it instead of a slogan-only block."},
+    {"section": "Changelog (Loops triggers, stacked PRs, coding agent controls, Loops for PM)", "why": "Dated shipping cadence reassures skeptics; it works as a closing trust signal rather than interrupting the pitch mid-page."},
+    {"section": "A new species of product tool (FIG 0.1 Purpose-built / 0.2 Powered by agents / 0.3 Designed for speed)", "why": "Cut as a standalone section: three adjectives a rival can paste. Fold the one concrete line, 'From drafting PRDs to pushing PRs', into the AI and automations intro."}
+  ],
+  "needs": [
+    "Free plan or trial terms (what is free, team size limit, whether a credit card is required) and the paid price per seat, for a line under the hero and final buttons",
+    "How long switching takes, e.g. importing from Jira, if the owner can state it truthfully",
+    "One customer quote with a measurable result (time saved, cycle time, tool replaced), with name, title and company",
+    "One line per logo on which team uses Linear and for what, if the logo strip is to carry context",
+    "Engineering change: remove the blur/fade-in on the hero text and lazy-load the 2,305 KB of product mockups so the headline is sharp at first paint on slow phones"
+  ]
+}
